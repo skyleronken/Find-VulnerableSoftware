@@ -6,6 +6,7 @@ Function Get-InstalledSoftware
 
   .DESCRIPTION
   Useful to getting a list of possibly vulnerable applications for privilege escalation. Since any services/software running with privileged permissions is likely to be windows compliant, this method should be suitable. 
+  Credit to Sean Kearney. 
   #>
 
   $Branch='LocalMachine'   
