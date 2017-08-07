@@ -1,4 +1,4 @@
-# Get-InstalledSoftware
+# Find-VulnerableSoftware
 Get a list of installed software in a safe manner
 
 Credit to Sean Kearney. I just modified a little bit for version info and more usable for red team/pentest engagements.
