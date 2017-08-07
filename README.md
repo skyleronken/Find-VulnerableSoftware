@@ -1,4 +1,22 @@
 # Find-VulnerableSoftware
+Find privesc CVEs for non-microsoft software with the appropriate version. 
+
+```
+010 Editor 8.0 (64-bit)
+Explorer Suite IV
+OpenVPN 2.4.2-I601 
+CVE-2014-8104
+	 OpenVPN 2.x before 2.0.11, 2.1.x, 2.2.x before 2.2.3, and 2.3.x before 2.3.6 allows remote authenticated users to cause a denial of service (server crash) via a small control channel packet.
+		 http://advisories.mageia.org/MGASA-2014-0512.html
+		 http://lists.opensuse.org/opensuse-security-announce/2014-12/msg00008.html
+		 http://www.debian.org/security/2014/dsa-3084
+		 http://www.mandriva.com/security/advisories?name=MDVSA-2015:139
+		 http://www.ubuntu.com/usn/USN-2430-1
+		 https://community.openvpn.net/openvpn/wiki/SecurityAnnouncement-97597e732b
+
+```
+
+# Get-InstalledSoftware
 Get a list of installed software in a safe manner
 
 Credit to Sean Kearney. I just modified a little bit for version info and more usable for red team/pentest engagements.
